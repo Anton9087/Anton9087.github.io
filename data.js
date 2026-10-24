@@ -107,7 +107,7 @@ const PROJECTS = [
   {
     id: "ozon",
     kicker: "Ozon · «Большая игра»",
-    year: "",
+    year: "2026",
     title: "Геймификация кабинета продавца «Киоск»",
     summary: "Придумали игровую надстройку над кабинетом продавца Ozon: она будит «спящих» малых продавцов и учит их пользоваться инструментами маркетплейса.",
     role: "Тимлид команды из 4 человек",
@@ -138,6 +138,7 @@ const CERT_GROUPS = [
   { id: "practice", title: "Практика в компаниях" },
   { id: "data", title: "Данные и аналитика" },
   { id: "marketing", title: "Маркетинг и презентации" },
+  { id: "webinars", title: "Вебинары НИУ ВШЭ" },
 ];
 
 // img: картинка сертификата, thumb: уменьшенная копия для карточки (можно не указывать)
@@ -165,4 +166,11 @@ const CERTIFICATES = [
     file: "files/certs/vk-smm.pdf", img: "img/certs/vk-smm.webp", thumb: "img/certs/vk-smm-s.webp" },
   { group: "marketing", issuer: "Stepik", title: "Дизайн презентаций", year: "2026", note: "Выдан 06.10.2026",
     file: "files/certs/stepik-design.pdf", img: "img/certs/stepik-design.webp", thumb: "img/certs/stepik-design-s.webp", verify: "https://stepik.org/cert/3360898" },
+
+  { group: "webinars", issuer: "НИУ ВШЭ", title: "«Как выбрать бизнес-идею?»", year: "2026", note: "Вебинар Федерального методического центра по финансовой грамотности, 13 октября 2026",
+    file: "files/certs/hse-business-idea.pdf", img: "img/certs/hse-business-idea.webp", thumb: "img/certs/hse-business-idea-s.webp" },
+  { group: "webinars", issuer: "НИУ ВШЭ", title: "«География населения через призму финансовой грамотности»", year: "2026", note: "Вебинар Федерального методического центра по финансовой грамотности, 8 и 16 октября 2026",
+    file: "files/certs/hse-geography-finlit.pdf", img: "img/certs/hse-geography-finlit.webp", thumb: "img/certs/hse-geography-finlit-s.webp" },
+  { group: "webinars", issuer: "НИУ ВШЭ", title: "Практико-ориентированное преподавание финансовой грамотности", year: "2026", note: "Вебинар Федерального методического центра по финансовой грамотности, 19 октября 2026",
+    file: "files/certs/hse-finlit-teaching.pdf", img: "img/certs/hse-finlit-teaching.webp", thumb: "img/certs/hse-finlit-teaching-s.webp" },
 ];
