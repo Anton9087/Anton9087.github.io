@@ -108,7 +108,7 @@ const CERT_GROUPS = [
   { id: "practice", title: "Практика в компаниях" },
   { id: "data", title: "Данные и аналитика" },
   { id: "marketing", title: "Маркетинг и презентации" },
-  { id: "webinars", title: "Вебинары НИУ ВШЭ" },
+  { id: "webinars", title: "Сертификаты ВШЭ" },
   { id: "finance", title: "Финансовая грамотность" }
 ];
 const CERTIFICATES = [
